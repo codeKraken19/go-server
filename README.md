@@ -1,6 +1,8 @@
 # Go-Webserver
 
-Go Web server
+Golang Web Server
+
+Built for speed.... to market... and speed at runtime. But, mostly speed to market, otherwise we would have chosen Rust.
 
 # About
 
