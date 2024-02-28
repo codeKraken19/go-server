@@ -15,5 +15,8 @@ func main() {
 	// http.Handle("/", fs)
 	fmt.Println("Starting server on the port 8080...")
 
-	log.Fatal(http.ListenAndServe(":8080", r))
+	err = log.Fatal(http.ListenAndServe(":8080", r))
+	if err (
+		fmt.Println("Another process is running on 8080/tcp already.")
+		)
 }
